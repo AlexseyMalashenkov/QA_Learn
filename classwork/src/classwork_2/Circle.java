@@ -1,12 +1,19 @@
 package classwork_2;
 
 public class Circle extends Figure implements Areas {
+    private double radius;
+
     public Circle(double radius) {
-        super(radius);
+        this.radius = radius;
+    }
+
+    @Override
+    double perimeter() {
+        return 2 * Math.PI * this.radius;
     }
 
     @Override
     public double square() {
-        return Math.PI * Math.pow(super.a, 2);
+        return Math.PI * Math.pow(this.radius, 2);
     }
 }
