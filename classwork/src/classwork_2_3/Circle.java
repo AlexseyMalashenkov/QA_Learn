@@ -1,4 +1,4 @@
-package classwork_2;
+package classwork_2_3;
 
 public class Circle extends Figure implements Areas {
     private double radius;

@@ -1,4 +1,4 @@
-package classwork_2;
+package classwork_2_3;
 
 public class Square extends Figure implements Areas {
     private double height;
