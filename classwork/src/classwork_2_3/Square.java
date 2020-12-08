@@ -1,8 +1,8 @@
 package classwork_2_3;
 
 public class Square extends Figure implements Areas {
-    private double height;
-    private double width;
+    private final double height;
+    private final double width;
 
     public Square(double height, double width) {
         this.height = height;

@@ -1,8 +1,8 @@
 package classwork_2_3;
 
 public class Triangle extends Figure implements Areas {
-    private double base1;
-    private double height;
+    private final double base1;
+    private final double height;
     private double base3;
 
     public Triangle(double base, double height) {
